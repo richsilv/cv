@@ -1,0 +1,93 @@
+{
+  "name": "Richard Silverton",
+  "tagline": "Full-stack Javascript developer",
+  "address": [
+    "39 Wallace Road",
+    "London",
+    "N1 2PQ",
+    "silverton.richard@googlemail.com",
+    "+44 (0)7747 095930"
+  ],
+  "summary": "<p>I am a mid-level full-stack developer with more than 3 years experience in Node.js, React and MongoDB. I also have significant commercial experience with React Native, AWS, Angular, Meteor.js, Express, and Ansible.<p></p>I love the power and versatility of Javascript, whilst also believing strongly in the power of functional programming paradigms (immutability, type checking, pure functions) to produce bug-free, maintainable code.</p><p>My other interests include neural networks, libraries for working with which I've developed in both Javascript and ReasonML.</p><p>I'm a co-organiser of the London Meteor meetup, at which I've presented on a multitude of occasions <sup class=\"black-40 \">(1)(2)(3)</sup>, speaking about all aspects of full-stack development in development and production, and demonstrating a series of personal projects.</p><a class=\"f6 black-40 i db\" href=\"https://www.youtube.com/watch?v=v-yPPPjCk_I\">1</a><a class=\"black-40 i db\" href=\"https://www.youtube.com/watch?v=rWcXAhUkp6Y&t=421s\">2</a><a class=\"black-40 i db\" href=\"https://www.youtube.com/watch?v=O15hAIsncO8\">3</a>",
+  
+  "employmentHistory": [
+    {
+      "employer": "TABLEFLIP",
+      "role": "Full-stack developer",
+      "dates": "November 2014 - present",
+      "description": "<p class=\"f6 lh-copy\">Working as part of a four-person agency, I built complex web and native applications from the ground up for clients across a range of industries.  Our approach followed Agile principles, delivering work in focused, week-long sprints with clearly defined goals.</p><p class=\"f6 lh-copy\">Tech stacks varied between projects, but were all based on Node.js and MongoDB, with some combination of Express.js, Hapi and Meteor on the back-end, and Blaze/Handlebars, Jade/Pug and React on the front end. All of our green-field projects over the past 18 months have been based on React and Redux, with one major native app delivered using React Native.</p><p class=\"f6 lh-copy\">As part of a small team, I was also responsible for deployment and support, the former largely via Ansible, but recently experimenting with Docker for increased predictability across environments.</p>"
+    },
+    {
+      "employer": "Change, Grow, Live (formerly CRI Ltd.)",
+      "role": "Financial consultant – Transforming Rehabilitation project",
+      "dates": "March 2014 – October 2014",
+      "description": "I was responsible for delivering the financial analysis component of the organisation's bids for the Ministry of Justice's ground-breaking Transforming Rehabilitation initiative. I reported directly to the charity's board and the MoJ on all financial aspects of the process."
+    },
+    {
+      "employer": "Various (pro bono)",
+      "role": "Developer",
+      "dates": "March 2013 - March 2014",
+      "description": "After deciding to leave trading to become a developer, I spent around a year intensively teaching myself the modern programming languages Python and Javascript via online resources including Udacity and Coursera.  I put these skills to work by developing sites for my running club's racing league, a fantasy biathlon game which was internationally successful and mentioned on TV, an e-commerce site and an annual charity football event, amongst other personal projects."
+    },
+    {
+      "employer": "Goldman Sachs", 
+      "dates": "2003 - 2006 and 2007 - 2013",
+      "role": "Vice president, Short-term interest rates trading",
+      "description": "I was responsible for market-making and discretionary trading of international interest rate products and foreign exchange to manage credit, market and funding risks. I also provided market intelligence and personal trading views to high-profile clients including central banks."
+    },
+    {
+      "employer": "IHS Markit",
+      "dates": "June 2007 – September 2007",
+      "role": "Quantitative analyst, Valuations group",
+      "description": "I developed a flexible CDO pricing model which could be calibrated to prevailing market correlations in Matlab."
+    }
+  ],
+  "education": [
+    {
+      "name": "Cass Business School",
+      "dates": "2006-2007",
+      "details": "Masters in Mathematical Trading and Finance, MSc. degree (Distinction)"
+    },
+    {
+      "name": "University of Nottingham", 
+      "dates": "1998-2002",
+	    "details": "Masters in Mathematics, MMath. (Hons) degree (2:1)"
+    }
+  ],
+  "personalProjects": [
+    {
+      "name": "This CV",
+      "details": "The contents of this CV are stored on Github in JSON format; changing them invokes an AWS Lambda function via a webhook, which rebuilds the pdf and stores it on Amazon S3.",
+      "link": "https://github.com/richsilv/cv"
+    },
+    {
+      "name": "Neural",
+      "details": "A dependency-free neural network library based on ES6 generators which runs on Node.js and in the browser.",
+      "link": "https://github.com/richsilv/neural"
+    },
+    {
+      "name": "Team Roster",
+      "details": "An example project for viewing and editing rosters of players to showcase a variety of bleeding-edge libraries: Next.js, Apollo, Tachyons, RxDB and Redux-pack.",
+      "link": "https://github.com/tableflip/apollo-next-example"
+    },
+    {
+      "name": "ReasonML neural network",
+      "details": "A functional neural network implementation written in ReasonML.",
+      "link": "https://github.com/richsilv/reasonml-neural-net"
+    }
+  ],
+  "profiles": [
+    {
+      "network": "Github",
+      "fa": "github",
+      "link": "https://github.com/richsilv",
+      "username": "richsilv"
+    },
+    {
+      "network": "StackOverflow",
+      "fa": "stack-overflow",
+      "link": "http://stackoverflow.com/users/2068581/richsilv",
+      "username": "richsilv"
+    }
+  ]
+}

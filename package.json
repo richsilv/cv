@@ -1,0 +1,26 @@
+{
+  "name": "cv-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "remote": "node ./remote.js",
+    "local:pdf": "node ./local-pdf.js",
+    "local:html": "node ./local-html.js",
+    "local:watch": "nodemon --exec \"npm run local:html\" --ignore output"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.50.0",
+    "html5-to-pdf": "^2.2.4",
+    "nodemon": "^1.11.0",
+    "npm-run-all": "^4.0.2"
+  },
+  "dependencies": {
+    "markdown-it": "^8.3.1",
+    "request": "^2.81.0"
+  }
+}
