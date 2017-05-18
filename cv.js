@@ -28,10 +28,13 @@ module.exports = function ({
       .nba {
         page-break-after: avoid;
       }
-      .no-shadow {
-        border-style-left: hidden;
-        border-style-right: hidden;
-        border-style-bottom: hidden;
+      hr {
+        margin-top: 2em;
+        padding-bottom: 1.75em;
+        border-top: 1px solid rgba(0, 0, 0, 0.4);
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        border-bottom: none;
       }
     </style>
   </head>
@@ -39,10 +42,10 @@ module.exports = function ({
     <h1 class="f1 fw6 mt1 mb2">${name}</h1>
     <h2 class="f4 fw2 ttu tracked mb4">${tagline}</h2>
     ${address.map((addressLine) => `<h3 class="f5 fw4 mt1 mb1 i">${addressLine}</h3>`).join('')}
-    <div class="mt4 pb4 bt b--black-40 no-shadow"></div>
+    <hr />
     <h2 class="f3 fw7 ttu tracked mt1 mb4">Summary</h2>
     <div class="f6 lh-copy">${summary}</div>
-    <div class="mt4 pb4 bt b--black-40 no-shadow"></div>
+    <hr />
     <h2 class="f3 fw7 ttu tracked mt1 mb4 nba">Employment History</h2>
     <ul class="list pl0">
       ${employmentHistory.map((job) => {
@@ -53,14 +56,14 @@ module.exports = function ({
         </li>`
       }).join('')}
     </ul>
-    <div class="mt4 pb4 bt b--black-40 no-shadow"></div>
+    <hr />
     <h2 class="f3 fw7 ttu tracked mt1 mb4 nba">Education</h2>
     <ul class="list pl0">
       ${education.map((stage) => {
         return `<li class="mb3 lh-title nbi"><strong>${stage.details}</strong> - <em>${stage.name} (${stage.dates})</em></li>`
       }).join('')}    
     </ul>
-    <div class="mt4 pb4 bt b--black-40 no-shadow"></div>
+    <hr />
     <h2 class="f3 fw7 ttu tracked mt1 mb4 nba">Personal Projects</h2>
     <ul class="list pl0">
       ${personalProjects.map((project) => {
@@ -70,7 +73,7 @@ module.exports = function ({
         </li>`
       }).join('')}
     </ul>
-    <div class="mt4 pb4 bt b--black-40 no-shadow"></div>
+    <hr />
     <h2 class="f3 fw7 ttu tracked mt1 mb4 nba">Profiles</h2>
     <ul class="list pl0 nbi">
       ${profiles.map(({ fa, network, link, username }) => {
