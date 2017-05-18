@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "remote": "node ./remote.js",
+    "remote:test": "node ./remote-test.js",
     "local:pdf": "node ./local-pdf.js",
     "local:html": "node ./local-html.js",
+    "local:test": "node ./local-test.js",
     "local:watch": "nodemon --exec \"npm run local:html\" --ignore output"
   },
   "keywords": [],

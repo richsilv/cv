@@ -1,4 +1,5 @@
 const request = require('request')
+const qs = require('querystring')
 const CV = require('./cv')
 
 const {
@@ -24,17 +25,27 @@ function getData (cb) {
       const parsed = JSON.parse(body)
       cb(null, parsed)
     } catch (err) {
+      console.error('Parse error', err)
       cb(body)
     }
   })
 }
 
-function buildCV (data, cb) {
+function buildCV (data, opt, cb) {
   if (!pdfLayerAccessKey) throw new Error('Missing PdfLayer access key')
 
   const html = CV(data)
+  const queryString = qs.stringify(Object.assign({}, opt, {
+    access_key: pdfLayerAccessKey,
+    force: 1,
+    use_print_media: 1,
+    margin_top: 70,
+    margin_bottom: 70,
+    margin_left: 70,
+    margin_right: 70
+  }))
   request.post({
-    url: `http://api.pdflayer.com/api/convert?access_key=${pdfLayerAccessKey}`,
+    url: `http://api.pdflayer.com/api/convert?${queryString}`,
     form: { document_html: html },
     encoding: null
   }, (err, res, body) => {
@@ -45,10 +56,14 @@ function buildCV (data, cb) {
   })
 }
 
-module.exports = (writeData, cb) => {
+module.exports = (writeData, opt, cb) => {
+  if (typeof opt === 'function') {
+    cb = opt
+    opt = {}
+  }
   getData((err, data) => {
     if (err) return cb(err)
-    buildCV(data, (err, buf) => {
+    buildCV(data, opt, (err, buf) => {
       if (err) return cb(err)
 
       writeData(buf, cb)
@@ -56,4 +71,4 @@ module.exports = (writeData, cb) => {
   })
 }
 
-module.exports.getData = getData
+module.exports.buildCV = buildCV
