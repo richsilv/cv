@@ -67,7 +67,7 @@
     },
     {
       "name": "Team Roster",
-      "details": "An example project for viewing and editing rosters of players to showcase a variety of bleeding-edge libraries: Next.js, Apollo, Tachyons, RxDB and Redux-pack.",
+      "details": "An example project for viewing and editing rosters of players to showcase a variety of bleeding-edge libraries: Next.js, Apollo/GraphQL, Tachyons, RxDB and Redux-pack.",
       "link": "https://github.com/tableflip/apollo-next-example"
     },
     {
