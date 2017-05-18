@@ -1,3 +1,4 @@
+// Pull data from a local file, render it to HTML but not pdf and write it to local disk
 const fs = require('fs')
 const CV = require('./cv')
 

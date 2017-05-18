@@ -1,3 +1,4 @@
+// Pull data from a local file, render it with html5pdf locally and write it to local disk
 const fs = require('fs')
 const HTMLToPDF = require('html5-to-pdf')
 

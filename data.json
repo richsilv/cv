@@ -71,9 +71,9 @@
       "link": "https://github.com/tableflip/apollo-next-example"
     },
     {
-      "name": "ReasonML neural network",
-      "details": "A functional neural network implementation written in ReasonML, a new syntax for OCaml.",
-      "link": "https://github.com/richsilv/reasonml-neural-net"
+      "name": "Colour scheme generator",
+      "details": "A tool to generate a realistic colour palette from a single base colour.",
+      "link": "https://github.com/richsilv/color-scheme"
     }
   ],
   "profiles": [

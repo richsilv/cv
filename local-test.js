@@ -1,3 +1,4 @@
+// Pull data from local file, render a test version with PdfLayer and write it either to local disk or S3 depending on env
 const fs = require('fs')
 const { buildCV } = require('./build')
 

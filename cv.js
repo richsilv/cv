@@ -29,7 +29,9 @@ module.exports = function ({
         page-break-after: avoid;
       }
       .no-shadow {
-        border-bottom: 1px solid transparent;
+        border-style-left: hidden;
+        border-style-right: hidden;
+        border-style-bottom: hidden;
       }
     </style>
   </head>

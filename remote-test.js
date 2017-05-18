@@ -1,3 +1,4 @@
+// Pull data from Github, render a test version with PdfLayer and write it either to local disk or S3 depending on env
 const build = require('./build')
 
 let writeData
