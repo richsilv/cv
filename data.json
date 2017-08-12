@@ -12,10 +12,16 @@
   
   "employmentHistory": [
     {
+      "employer": "re:infer",
+      "role": "Lead front-end developer",
+      "dates": "July 2017-present",
+      "description": "I lead front-end development for an artificial intelligence startup, which utilised cutting-edge natural language processing techniques to deliver analytics over large sets of conversational data, like email exchanges and customer feedback.  Much of my role involves designing and implementing ways of intuitively presenting vast quantities of information and surfacing the most important details.  Working closely with the founders, who are Machine Learning PhDs, I'm responsible for building and maintaining a front-end based on React, Redux and Webpack, written in Typescript."
+    },
+    {
       "employer": "TABLEFLIP",
       "role": "Full-stack developer",
-      "dates": "November 2014–present",
-      "description": "<p class=\"f6 lh-copy\">Working as part of a boutique agency, I build complex web and native applications from the ground up for clients across a range of industries, from startups to major international corporations.  Our approach follows Agile principles, delivering work in focused, week-long sprints with clearly defined goals.</p><p class=\"f6 lh-copy\">Tech stacks vary between projects, but are all based on Node.js and MongoDB, with some combination of Express.js, Hapi and Meteor.js on the back-end, and React, Blaze/Handlebars, Jade/Pug or Angular 1.x on the front-end. All of our green-field projects over the past 18 months have been based on React and Redux, with one major native app delivered using React Native.</p><p class=\"f6 lh-copy\">Achieving extensive test coverage is also a major tenet of our philosophy, with Mocha and Tape used for unit and integration tests, and Webdriver.io for end-to-end testing. As part of a small team, I am also responsible for deployment and support, the former largely via Ansible, although I've recently experimented with Docker for increased predictability across environments.</p>"
+      "dates": "November 2014–July 2017",
+      "description": "<p class=\"f6 lh-copy\">Working as part of a boutique agency, I built complex web and native applications from the ground up for clients across a range of industries, from startups to major international corporations.  Our approach followed Agile principles, delivering work in focused, week-long sprints with clearly defined goals.</p><p class=\"f6 lh-copy\">Tech stacks varied between projects, but were all based on Node.js and MongoDB, with some combination of Express.js, Hapi and Meteor.js on the back-end, and React, Blaze/Handlebars, Jade/Pug or Angular 1.x on the front-end. The majority of our green-field projects were based on React and Redux, with one major native app delivered using React Native.</p><p class=\"f6 lh-copy\">Achieving extensive test coverage was also a major tenet of our philosophy, with Mocha and Tape used for unit and integration tests, and Webdriver.io for end-to-end testing. As part of a small team, I was also responsible for deployment and support, the former largely via Ansible.</p>"
     },
     {
       "employer": "Change, Grow, Live (formerly CRI Ltd)",
