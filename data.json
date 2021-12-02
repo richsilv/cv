@@ -1,27 +1,29 @@
 {
   "name": "Richard Silverton",
-  "tagline": "Full-stack Javascript developer",
+  "tagline": "Full-stack developer",
   "address": [
-    "39 Wallace Road",
-    "London",
-    "N1 2PQ",
+    "Apple Tree Cottage"
+    "Orchard Road",
+    "Melbourn",
+    "Royston",
+    "SG8 6BP",
     "silverton.richard@googlemail.com",
     "+44 (0)7747 095930"
   ],
-  "summary": "<p>I am a full-stack developer with a background in finance and more than 5 years experience working with Node.js and React. I also have significant commercial experience with Typescript, React Native, MongoDB, RethinkDB, Webpack, Bash, AWS, Git and Docker.<p></p>I love the power and versatility of Javascript, particularly ES6, whilst also believing strongly in the capacity of functional programming paradigms (immutability, pure functions) to produce bug-free, maintainable code.  I'm also enthusiastic about atomic CSS libraries (e.g. Tachyons) for achieving a tidy code-base, although I have significant experience with Sass and Less as well.</p><p>My other interests include neural networks, and I've developed libraries for working with neural nets in both Javascript and ReasonML.</p><p>I'm a co-organiser of the London Meteor meetup, at which I've presented on a multitude of occasions <sup class=\"black-40 \">(1)(2)(3)</sup>, speaking about all aspects of full-stack development, and demonstrating a series of personal projects.</p><a class=\"f6 black-40 i db\" href=\"https://www.youtube.com/watch?v=v-yPPPjCk_I\">1: https://www.youtube.com/watch?v=v-yPPPjCk_I</a><a class=\"black-40 i db\" href=\"https://www.youtube.com/watch?v=rWcXAhUkp6Y\">2: https://www.youtube.com/watch?v=rWcXAhUkp6Y</a><a class=\"black-40 i db\" href=\"https://www.youtube.com/watch?v=O15hAIsncO8\">3: https://www.youtube.com/watch?v=O15hAIsncO8</a>",
+  "summary": "<p>I'm a full-stack developer with almost 10 years experience working with web technologies, focused on the front end. I consider myself an expert in Javascript, Typescript, React, CSS and browser APIs, but I also have significant experience with Python, Rust, React Native, MongoDB, RethinkDB, Webpack, Bash, Git and Docker.</p><p>I love working with new technologies and experimenting with cutting-edge browser features, but I'm equally passionate about thinking through architectural decisions and using my experience to ensure any production code base that I work on is not only bug-free, but designed to be as reslient as possible to the introduction of bugs. Whilst I'm not from a strongly-typed CS background, I enjoy working with type systems and appreciate the way they focus my attention on the structure of data as well as code.</p><p>In more sociable times, I was a co-organiser of the London Meteor meetup, at which I've presented on a multitude of occasions <sup class=\"black-40 \">(1)(2)(3)</sup>, speaking about all aspects of full-stack development, and demonstrating a series of personal projects.</p><a class=\"f6 black-40 i db\" href=\"https://www.youtube.com/watch?v=v-yPPPjCk_I\">1: https://www.youtube.com/watch?v=v-yPPPjCk_I</a><a class=\"black-40 i db\" href=\"https://www.youtube.com/watch?v=rWcXAhUkp6Y\">2: https://www.youtube.com/watch?v=rWcXAhUkp6Y</a><a class=\"black-40 i db\" href=\"https://www.youtube.com/watch?v=O15hAIsncO8\">3: https://www.youtube.com/watch?v=O15hAIsncO8</a>",
   
   "employmentHistory": [
     {
-      "employer": "re:infer",
+      "employer": "Re:infer",
       "role": "Lead front-end developer",
       "dates": "July 2017-present",
-      "description": "I lead front-end development for an artificial intelligence startup, which utilises cutting-edge natural language processing techniques to deliver analytics and automation over large sets of conversational data, like email exchanges, call transcripts and free-form feedback.  Much of my role involves designing and implementing ways of intuitively presenting vast quantities of information and surfacing the most important details.  Working closely with the founders, who are Machine Learning academics, I'm responsible for building and maintaining a front-end based on React, Redux and Webpack, written in Typescript."
+      "description": "<p class=\"f6 lh-copy\">I lead front-end development for an artificial intelligence startup, which utilises cutting-edge NLP to deliver analytics and automation over large collections of emails and chat data. I lead a small team of experienced engineers who are responsible for building and maintaining our complex web app, making architectural decisions and managing the feature development process alongside a product manager, but a lot of my role is hands-on development and code review.</p><p class=\"f6 lh-copy\">The app provides a sophisticated interface that allows non-technical users to train cutting-edge machine learning models, validate their results, see detailed analysis of the data, and set up automations. It's written in Typescript, React, Redux and Material-UI, with an API service written in Python to which I also contribute.</p>"
     },
     {
       "employer": "TABLEFLIP",
       "role": "Full-stack developer",
       "dates": "November 2014–July 2017",
-      "description": "<p class=\"f6 lh-copy\">Working as part of a boutique agency, I built complex web and native applications from the ground up for clients across a range of industries, from startups to major international corporations.  Our approach followed Agile principles, delivering work in focused, week-long sprints with clearly defined goals.</p><p class=\"f6 lh-copy\">Tech stacks varied between projects, but were all based on Node.js and MongoDB, with some combination of Express.js, Hapi and Meteor.js on the back-end, and React, Blaze/Handlebars, Jade/Pug or Angular 1.x on the front-end. The majority of our green-field projects were based on React and Redux, with one major native app delivered using React Native.</p><p class=\"f6 lh-copy\">Achieving extensive test coverage was also a major tenet of our philosophy, with Mocha and Tape used for unit and integration tests, and Webdriver.io for end-to-end testing. As part of a small team, I was also responsible for deployment and support, the former largely via Ansible.</p>"
+      "description": "<p class=\"f6 lh-copy\">Working as part of a boutique agency, I built complex web and native applications from the ground up for clients across a range of industries, from startups to major international corporations. Technologies included React, Redux, MongoDB, Meteor.js, Node, Express and Ansible.</p>"
     },
     {
       "employer": "Change, Grow, Live (formerly CRI Ltd)",
@@ -50,7 +52,7 @@
   ],
   "education": [
     {
-      "name": "Cass Business School",
+      "name": "Bayes Business School",
       "dates": "2006–2007",
       "details": "Masters in Mathematical Trading and Finance, MSc. degree (Distinction)"
     },
@@ -67,14 +69,29 @@
       "link": "https://github.com/richsilv/cv"
     },
     {
+      "name": "React render-when-visible",
+      "details": "An experimental hook which easily allows selective rerendering of components based on whether they appear in a given view-pane for improving the performance of React apps."
+      "link": "https://codesandbox.io/s/rerenderwhenvisible-lo4qg"
+    },
+    {
+      "name": "React sticky-container",
+      "details": "A React/JS implementation of the native position: sticky behaviour for situations in which the equivalent CSS can't be used."
+      "link": "https://codesandbox.io/s/sticky-container"
+    },
+    {
+      "name": "CSS Transition Group reimplementation",
+      "details": "A plug-in replacement for the old CSSTransitionGroup, designed to work with modern React."
+      "link": "https://codesandbox.io/s/css-transition-group-fqx4j"
+    },
+    {
+      "name": "Graffiti wall",
+      "details": "An early (and gratuitous) experiment with using React hooks to do as much as possible in a small amount of code."
+      "link": "https://codesandbox.io/s/7y64opw7n6"
+    },
+    {
       "name": "Neural",
       "details": "A dependency-free neural network library based on ES6 generators which runs on Node.js and in the browser.",
       "link": "https://github.com/richsilv/neural"
-    },
-    {
-      "name": "Team Roster",
-      "details": "An example project for viewing and editing rosters of players to showcase a variety of bleeding-edge libraries: Next.js, Apollo/GraphQL, Tachyons, RxDB and Redux-pack.",
-      "link": "https://github.com/tableflip/apollo-next-example"
     },
     {
       "name": "Colour scheme generator",
