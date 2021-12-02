@@ -2,7 +2,7 @@
   "name": "Richard Silverton",
   "tagline": "Full-stack developer",
   "address": [
-    "Apple Tree Cottage"
+    "Apple Tree Cottage",
     "Orchard Road",
     "Melbourn",
     "Royston",
@@ -70,22 +70,22 @@
     },
     {
       "name": "React render-when-visible",
-      "details": "An experimental hook which easily allows selective rerendering of components based on whether they appear in a given view-pane for improving the performance of React apps."
+      "details": "An experimental hook which easily allows selective rerendering of components based on whether they appear in a given view-pane for improving the performance of React apps.",
       "link": "https://codesandbox.io/s/rerenderwhenvisible-lo4qg"
     },
     {
       "name": "React sticky-container",
-      "details": "A React/JS implementation of the native position: sticky behaviour for situations in which the equivalent CSS can't be used."
+      "details": "A React/JS implementation of the native position: sticky behaviour for situations in which the equivalent CSS can't be used.",
       "link": "https://codesandbox.io/s/sticky-container"
     },
     {
       "name": "CSS Transition Group reimplementation",
-      "details": "A plug-in replacement for the old CSSTransitionGroup, designed to work with modern React."
+      "details": "A plug-in replacement for the old CSSTransitionGroup, designed to work with modern React.",
       "link": "https://codesandbox.io/s/css-transition-group-fqx4j"
     },
     {
       "name": "Graffiti wall",
-      "details": "An early (and gratuitous) experiment with using React hooks to do as much as possible in a small amount of code."
+      "details": "An early (and gratuitous) experiment with using React hooks to do as much as possible in a small amount of code.",
       "link": "https://codesandbox.io/s/7y64opw7n6"
     },
     {
